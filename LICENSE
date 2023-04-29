@@ -76,8 +76,10 @@ busybox: GPLv2
     (pre-patched source tree used to build available upon request)
 
 lptools_static: Apache License 2.0
+fec: Apache License 2.0
+snapshotupdater_static: Apache License 2.0
 
-    Copyright (C) 2020 Pierre-Hugues Husson <phh@phh.me>
+    Copyright their respective authors, (linked below).
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -91,8 +93,35 @@ lptools_static: Apache License 2.0
     See the License for the specific language governing permissions and
     limitations under the License.
 
-    Source not required, however, respective source is provided:
+    Source not required, however, respective sources are provided:
     https://github.com/phhusson/vendor_lptools
+    https://android.googlesource.com/platform/system/extras/+/master/verity/fec/
+    https://github.com/capntrips/SnapshotUpdater
+
+httools_static: MIT License
+
+    Copyright (c) 2022 capntrips
+
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
+
+    Source not required, however, respective source is provided:
+    https://github.com/capntrips/HashtreePatcher
 
 
 ## Optional Binary Licenses:
@@ -119,7 +148,7 @@ boot_signer*.jar: Apache License 2.0
     https://github.com/osm0sis/mkbootfs
     https://github.com/osm0sis/mkbootimg
     https://github.com/osm0sis/mkmtkhdr
-    https://android.googlesource.com/platform/system/extras/+/master
+    https://android.googlesource.com/platform/system/extras/+/master/verity/
 
 flash_erase, nanddump, nandwrite (mtd-utils): GPLv2
 dumpimage, mkimage (U-Boot): GPLv2+
