@@ -552,17 +552,17 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print " " "AnyKernel3 by osm0sis @ xda-developers" " ";
-ui_print "AnyKernel3 by osm0sis @ xda-developers";
 ui_print "";
 ui_print ""
-ui_print "  ____   _____  _         _    ";
-ui_print " /_   \ /  __/ / \  /|  _| |_  ";
-ui_print "  /   / |  \   | |\ || |_   _| ";
-ui_print " /   /_ |  /_  | | \||   |_|   ";
-ui_print " \____/ \____\ \_/  \|         ";
-ui_print "                               ";
-ui_print "  Android 12/13 Custom Kernel  ";
-ui_print " for POCO F2 Pro/Redmi K30 Pro ";
+ui_print "   _   _______ _____ _____ _   _ _   _  _____   ";
+ui_print "  | | / /_   _|_   _/  ___| | | | \ | ||  ___|  ";
+ui_print "  | |/ /  | |   | | \   \ | | | |  \| || |__    ";
+ui_print "  |    \  | |   | |   --  \ | | |     ||  __|   ";
+ui_print "  | |\  \_| |_  | | /\__/ / |_| | |\  || |___   ";
+ui_print "  \_| \_/\___/  \_/ \____/ \___/\_| \_/\____/   ";
+ui_print ""
+ui_print "           Android 12/13 Custom Kernel          ";
+ui_print "          for POCO F2 Pro/Redmi K30 Pro         ";
 ui_print " ";
 ui_print " ";
 grep -oE 'AK_BASE.*' META-INF/com/google/android/updater-script >&2;
