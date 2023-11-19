@@ -561,7 +561,7 @@ ui_print "  |    \  | |   | |   --  \ | | |     ||  __|   ";
 ui_print "  | |\  \_| |_  | | /\__/ / |_| | |\  || |___   ";
 ui_print "  \_| \_/\___/  \_/ \____/ \___/\_| \_/\____/   ";
 ui_print ""
-ui_print "           Android 12/13 Custom Kernel          ";
+ui_print "           AOSP 12/13/14 Custom Kernel          ";
 ui_print "          for POCO F2 Pro/Redmi K30 Pro         ";
 ui_print " ";
 ui_print " ";
